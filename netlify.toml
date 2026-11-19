@@ -1,0 +1,6 @@
+# Sitio estático (HTML/CSS/JS) sin paso de compilación.
+# Este archivo reemplaza el comando "npm run build" configurado en el panel,
+# que fallaba porque el repositorio no tiene package.json.
+[build]
+  publish = "."
+  command = "echo 'Sitio estático: no requiere compilación'"
