@@ -1,0 +1,4 @@
+# Static site: no build step needed. Netlify serves the files in the repo root.
+[build]
+  command = "echo 'Static site - no build step'"
+  publish = "."
