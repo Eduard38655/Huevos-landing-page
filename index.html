@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es-DO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compra huevos frescos, arroz, granos, vegetales, condimentos, pescados salados y embutidos en Huevos Ferreras. Atención para hogares y negocios en República Dominicana.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#16833a">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_DO">
+  <meta property="og:site_name" content="Huevos Ferreras">
+  <meta property="og:title" content="Huevos Ferreras | Huevos frescos y productos alimenticios">
+  <meta property="og:description" content="Frescura, variedad y atención personalizada para tu hogar y negocio. Consulta nuestro catálogo y haz tu pedido por WhatsApp.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Huevos Ferreras | Productos frescos">
+  <meta name="twitter:description" content="Huevos frescos, arroz, granos, vegetales, pescados salados y más para tu hogar o negocio.">
+  <link rel="icon" type="image/png" href="assets/huevos-ferreras.png">
+  <title>Huevos Ferreras | Huevos frescos y productos alimenticios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="navbar" id="navbar">
+    <div class="nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <img src="assets/huevos-ferreras.png" alt="Huevos Ferreras">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#categorias">Categorías</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="theme-picker" id="themePicker">
+          <button class="theme-trigger" id="themeTrigger" type="button" aria-label="Cambiar tema de color; tema actual: Fresh Green" aria-haspopup="menu" aria-expanded="false" aria-controls="themeMenu">
+            <span class="theme-dot" id="themeDot" aria-hidden="true"></span>
+            <span class="theme-current-icon" id="themeCurrentIcon" aria-hidden="true">🌿</span>
+            <span class="theme-current-name" id="themeCurrentName">Fresh Green</span>
+            <span class="theme-chevron" aria-hidden="true">⌄</span>
+          </button>
+          <div class="theme-menu" id="themeMenu" role="menu" aria-label="Selecciona un tema" hidden>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="true" data-theme="fresh-green" data-label="Fresh Green" data-icon="🌿">
+              <span class="theme-option-icon" aria-hidden="true">🌿</span><span class="theme-option-name">Fresh Green</span>
+              <span class="theme-option-swatches" aria-hidden="true" style="--swatch-primary:#16833a;--swatch-secondary:#ffc526;--swatch-surface:#fffaf0"><i></i><i></i><i></i></span>
+            </button>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="false" data-theme="sunny-orange" data-label="Sunny Orange" data-icon="☀️">
+              <span class="theme-option-icon" aria-hidden="true">☀️</span><span class="theme-option-name">Sunny Orange</span>
+              <span class="theme-option-swatches" aria-hidden="true" style="--swatch-primary:#b14d0b;--swatch-secondary:#ffd43b;--swatch-surface:#fff8e8"><i></i><i></i><i></i></span>
+            </button>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="false" data-theme="natural-market" data-label="Natural Market" data-icon="🌾">
+              <span class="theme-option-icon" aria-hidden="true">🌾</span><span class="theme-option-name">Natural Market</span>
+              <span class="theme-option-swatches" aria-hidden="true" style="--swatch-primary:#626b34;--swatch-secondary:#d7b56d;--swatch-surface:#f4eddd"><i></i><i></i><i></i></span>
+            </button>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="false" data-theme="fresh-red" data-label="Fresh Red" data-icon="🍓">
+              <span class="theme-option-icon" aria-hidden="true">🍓</span><span class="theme-option-name">Fresh Red</span>
+              <span class="theme-option-swatches" aria-hidden="true" style="--swatch-primary:#c73535;--swatch-secondary:#ffb23f;--swatch-surface:#fff5ea"><i></i><i></i><i></i></span>
+            </button>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="false" data-theme="ocean-blue" data-label="Ocean Blue" data-icon="🌊">
+              <span class="theme-option-icon" aria-hidden="true">🌊</span><span class="theme-option-name">Ocean Blue</span>
+              <span class="theme-option-swatches" aria-hidden="true" style="--swatch-primary:#16759a;--swatch-secondary:#43c8cc;--swatch-surface:#edfafa"><i></i><i></i><i></i></span>
+            </button>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="false" data-theme="premium-dark" data-label="Premium Dark" data-icon="✨">
+              <span class="theme-option-icon" aria-hidden="true">✨</span><span class="theme-option-name">Premium Dark</span>
+              <span class="theme-option-swatches" aria-hidden="true" style="--swatch-primary:#d4af37;--swatch-secondary:#326945;--swatch-surface:#23251f"><i></i><i></i><i></i></span>
+            </button>
+            <button class="theme-option" type="button" role="menuitemradio" aria-checked="false" data-theme="clean-light" data-label="Clean Light" data-icon="⚪">
+              <span class="theme-option-icon" aria-hidden="true">⚪</span><span class="theme-option-name">Clean Light</span>
+              <span class="theme-option-swatches" aria-hidden="true" style="--swatch-primary:#35754f;--swatch-secondary:#a6cdb6;--swatch-surface:#ffffff"><i></i><i></i><i></i></span>
+            </button>
+          </div>
+          <span class="sr-only" id="themeStatus" role="status" aria-live="polite"></span>
+        </div>
+        <a class="nav-order" href="#contacto">Hacer pedido</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-shape shape-one"></div>
+      <div class="hero-shape shape-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Calidad que llega a tu mesa</span>
+          <h1>Frescura y variedad para tu <span>hogar y negocio.</span></h1>
+          <p>Encuentra huevos, arroz, granos, embutidos, condimentos, pescados salados y una gran variedad de productos alimenticios.</p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#productos">Explorar productos</a>
+            <a class="button button-secondary" href="#contacto">Realizar pedido</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>Calidad</strong><span>Garantizada</span></div>
+            <div><strong>Atención</strong><span>Personalizada</span></div>
+            <div><strong>Entrega</strong><span>Confiable</span></div>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="image-glow"></div>
+          <img class="hero-image" src="assets/huevos-ferreras.png" alt="Logotipo de Huevos Ferreras con una gallina y huevos frescos" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section class="categories section" id="categorias">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Todo lo que necesitas</span>
+          <h2>Explora nuestras categorías</h2>
+          <p>Una selección variada para mantener siempre surtido tu hogar o negocio.</p>
+        </div>
+        <div class="category-grid">
+          <a class="category-card" href="#productos">
+            <span class="category-icon">🥚</span>
+            <h3>Huevos</h3>
+            <p>Frescos y diferentes presentaciones.</p>
+          </a>
+          <a class="category-card" href="#productos">
+            <span class="category-icon">🌾</span>
+            <h3>Arroz y granos</h3>
+            <p>Arroz, habichuelas y productos empaquetados.</p>
+          </a>
+          <a class="category-card" href="#productos">
+            <span class="category-icon">🧄</span>
+            <h3>Vegetales y condimentos</h3>
+            <p>Ajo, cebolla y productos esenciales.</p>
+          </a>
+          <a class="category-card" href="#productos">
+            <span class="category-icon">🐟</span>
+            <h3>Pescados y salados</h3>
+            <p>Bacalao, arenque y conservas.</p>
+          </a>
+          <a class="category-card" href="#productos">
+            <span class="category-icon">🥓</span>
+            <h3>Embutidos</h3>
+            <p>Salami y productos similares.</p>
+          </a>
+          <a class="category-card" href="#productos">
+            <span class="category-icon">🛍️</span>
+            <h3>Fundas y empaques</h3>
+            <p>Presentaciones para hogar y comercio.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section" id="productos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Catálogo</span>
+          <h2>Descubre nuestra variedad de productos</h2>
+          <p>Amplia selección para satisfacer las necesidades de tu hogar, comercio o negocio.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image"><img src="assets/product-huevos.jpg" alt="Huevos frescos en cartones de mercado" loading="lazy" decoding="async"></div>
+            <div class="product-content"><span class="product-category">Huevos</span><h3>Cartón de huevos</h3><p>Frescos y disponibles en diferentes presentaciones.</p><a href="https://wa.me/18299663772?text=Hola%2C%20quiero%20consultar%20por%20el%20cart%C3%B3n%20de%20huevos." target="_blank" rel="noopener">Consultar por WhatsApp</a></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="assets/product-arroz.jpg" alt="Granos de arroz blanco" loading="lazy" decoding="async"></div>
+            <div class="product-content"><span class="product-category">Arroz y granos</span><h3>Arroz</h3><p>Producto de calidad para cada preparación.</p><a href="https://wa.me/18299663772?text=Hola%2C%20quiero%20consultar%20por%20el%20arroz." target="_blank" rel="noopener">Consultar por WhatsApp</a></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="assets/product-ajo.jpg" alt="Dientes y bulbos de ajo fresco" loading="lazy" decoding="async"></div>
+            <div class="product-content"><span class="product-category">Condimentos</span><h3>Ajo</h3><p>Fresco y seleccionado para tus recetas.</p><a href="https://wa.me/18299663772?text=Hola%2C%20quiero%20consultar%20por%20el%20ajo." target="_blank" rel="noopener">Consultar por WhatsApp</a></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="assets/product-cebolla.jpg" alt="Cebollas moradas frescas" loading="lazy" decoding="async"></div>
+            <div class="product-content"><span class="product-category">Vegetales</span><h3>Cebolla</h3><p>Disponible en varias unidades y presentaciones.</p><a href="https://wa.me/18299663772?text=Hola%2C%20quiero%20consultar%20por%20la%20cebolla." target="_blank" rel="noopener">Consultar por WhatsApp</a></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="assets/product-bacalao.jpg" alt="Pescado salado para preparar bacalao" loading="lazy" decoding="async"></div>
+            <div class="product-content"><span class="product-category">Pescados salados</span><h3>Bacalao</h3><p>Ideal para preparar platos tradicionales.</p><a href="https://wa.me/18299663772?text=Hola%2C%20quiero%20consultar%20por%20el%20bacalao." target="_blank" rel="noopener">Consultar por WhatsApp</a></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="assets/product-arenque.jpg" alt="Arenques salados secándose en un bastidor" loading="lazy" decoding="async"></div>
+            <div class="product-content"><span class="product-category">Pescados salados</span><h3>Arenque</h3><p>Opciones variadas para el consumo diario.</p><a href="https://wa.me/18299663772?text=Hola%2C%20quiero%20consultar%20por%20el%20arenque." target="_blank" rel="noopener">Consultar por WhatsApp</a></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="assets/product-salami.jpg" alt="Salami cortado en rodajas" loading="lazy" decoding="async"></div>
+            <div class="product-content"><span class="product-category">Embutidos</span><h3>Salami</h3><p>Distintas presentaciones y tamaños disponibles.</p><a href="https://wa.me/18299663772?text=Hola%2C%20quiero%20consultar%20por%20el%20salami." target="_blank" rel="noopener">Consultar por WhatsApp</a></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="assets/product-habichuelas.jpg" alt="Habichuelas rojas secas en un recipiente" loading="lazy" decoding="async"></div>
+            <div class="product-content"><span class="product-category">Arroz y granos</span><h3>Habichuelas</h3><p>Granos seleccionados en múltiples empaques.</p><a href="https://wa.me/18299663772?text=Hola%2C%20quiero%20consultar%20por%20las%20habichuelas." target="_blank" rel="noopener">Consultar por WhatsApp</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-mark"><img src="assets/huevos-ferreras.png" alt="Huevos Ferreras"></div>
+        <div class="about-copy">
+          <span class="eyebrow">Sobre nosotros</span>
+          <h2>Productos frescos, cercanos y confiables</h2>
+          <p>En Huevos Ferreras ofrecemos variedad y atención personalizada para hogares y comercios. Trabajamos para que tus compras sean rápidas, sencillas y satisfactorias.</p>
+          <ul>
+            <li>Productos seleccionados</li>
+            <li>Presentaciones variadas</li>
+            <li>Atención para pedidos y compras al por mayor</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div class="container contact-card">
+        <div>
+          <span class="eyebrow">Estamos listos para atenderte</span>
+          <h2>¿Necesitas hacer un pedido?</h2>
+          <p>Escríbenos por WhatsApp al <a class="contact-phone" href="tel:+18299663772">829-966-3772</a> y recibe atención personalizada.</p>
+        </div>
+        <a class="button button-primary" href="https://wa.me/18299663772?text=Hola%2C%20quiero%20hacer%20un%20pedido%20a%20Huevos%20Ferreras." target="_blank" rel="noopener">Consultar por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <img src="assets/huevos-ferreras.png" alt="Huevos Ferreras">
+      <p>Frescura campestre y calidad para tu hogar y negocio.</p>
+      <span>© 2026 Huevos Ferreras</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Huevos Ferreras",
+      "description": "Distribución de huevos frescos y productos alimenticios para hogares y negocios en República Dominicana.",
+      "telephone": "+1-829-966-3772",
+      "areaServed": {
+        "@type": "Country",
+        "name": "República Dominicana"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-829-966-3772",
+        "contactType": "ventas",
+        "availableLanguage": "Spanish"
+      }
+    }
+  </script>
+</body>
+</html>
